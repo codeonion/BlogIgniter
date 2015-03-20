@@ -8,6 +8,6 @@ application/logs/*
 !application/logs/index.html
 !application/logs/.htaccess
 
+/*
 system/*
-
 user_guide/*
