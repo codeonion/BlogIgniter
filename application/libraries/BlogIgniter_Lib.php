@@ -9,8 +9,10 @@ class BlogIgniter_Lib{
 /**************************************************/
 
 	public function BI_test(){
-		$someVar = "I am BlogIgniter_Lib";
-		return $someVar;
+		// $this->load->model('ClogIgniter_Lib');
+		// $data = $this->blogigniter_model->customFunction();
+		$data = "I am a library and help me get data from MODEL";//$this->blogigniter_model->customFunction();
+		return $data;
 	}
 
 	/*

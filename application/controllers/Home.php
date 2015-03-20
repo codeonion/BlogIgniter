@@ -17,7 +17,6 @@ class Home extends CI_Controller {
 
 		// Testing custom Library file usage
 		$data['libraryVariable'] = $this->blogigniter_lib->BI_test();
-
 		$data['db_databaseName'] = $this->config->item('db_databaseName');
 		$data['db_user'] = $this->config->item('db_user');
 		$data['db_password'] = $this->config->item('db_password');
