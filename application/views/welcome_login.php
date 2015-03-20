@@ -64,6 +64,7 @@
 		</div>
 		<div id="post_body"		><?php echo $post_body; ?></div>
 		<div id="post_comments"	><?php echo $post_comments; ?></div>
+		<?php echo $libraryVariable->post_title; ?>
 	</div>
 </body>
 </html>

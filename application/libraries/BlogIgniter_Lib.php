@@ -7,11 +7,15 @@ class BlogIgniter_Lib{
 *	File Created by Muhammad Ali (Codeonion)		*
 *	Authors: Haji Mian Imran shah, Muhammad Ali 	*
 /**************************************************/
+public function __construct()
+{
+    $this->CI =& get_instance();
+}
 
 	public function BI_test(){
-		// $this->load->model('ClogIgniter_Lib');
-		// $data = $this->blogigniter_model->customFunction();
-		$data = "I am a library and help me get data from MODEL";//$this->blogigniter_model->customFunction();
+		 $this->CI->load->model('blogigniter_post');
+		 $data = $this->CI->blogigniter_post->customFunction();
+		//$data = "I am a library and help me get data from MODEL";//$this->blogigniter_model->customFunction();
 		return $data;
 	}
 
